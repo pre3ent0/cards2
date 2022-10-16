@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 50px;
+  background-color: darkcyan;
+}
+.card {
+  width: 200px;
+  height: 340px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+}
+.p1 {
+  color: gray;
+  font-size: 15px;
+  margin: 20px;
+}
+.p2 {
+    color: darkblue;
+    margin: 20px 20px 10px 20px;
+}
+.p3 {
+    color: lightgray;
+    margin: 0px 20px 0px 20px;
+    font-size: 10px;
+}
+img {
+    height: 150px;
+}
